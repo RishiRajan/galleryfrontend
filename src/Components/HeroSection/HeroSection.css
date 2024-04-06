@@ -1,0 +1,161 @@
+.hero-section {
+        background-image: url('1.jpg');
+        background-size: cover;
+        /* Cover the entire area of the hero section */
+        background-position: center;
+        /* Center the background image */
+        height: 60vh;
+        width: 100%;
+        /* Set the height to viewport height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        z-index: -1;
+        position: relative;
+
+}
+
+body {
+        margin: 0;
+        /* Remove default margin */
+}
+
+.hero-content {
+        text-align: center;
+        font-family: "Albra Grotesk Bold-Traced-Web", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: bold;
+        color: #fff;
+        height: 100%;
+        width: 100%;
+        /* Text color */
+}
+
+.hero-content h1 {
+        font-size: 7em;
+        background-image: url('mask.png');
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        border: none;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+
+}
+
+.firstH1 {
+        margin-top: -2em;
+
+}
+
+.ohterH1 {
+        margin-left: -0.5em;
+        margin-top: 1em;
+
+}
+
+.hero-content p {
+        font-size: 1.2em;
+}
+
+@media screen and (max-width: 768px) {
+        .hero-section {
+                height: 60vh;
+        }
+
+        .hero-content h1 {
+                font-size: 4em;
+                height: 60vh;
+                /* Adjust font size for smaller devices */
+        }
+
+        .firstH1 {
+                margin-top: -2em;
+                margin-left: -0.25em;
+
+        }
+
+        .ohterH1 {
+                margin-left: 0.5em;
+                margin-top: 0.5em;
+
+        }
+
+        .hero-content h1 {
+
+                height: 100%;
+                width: 100%;
+
+
+        }
+}
+
+@media screen and (max-width: 425px) {
+        .hero-section {
+                height: 55vh;
+        }
+
+        .hero-content h1 {
+                font-size: 3em;
+                height: 50vh;
+                /* Adjust font size for smaller devices */
+        }
+
+        .firstH1 {
+                margin-top: -2.25em;
+
+        }
+
+        .ohterH1 {
+                margin-left: -0.5em;
+                margin-top: 1.25em;
+
+        }
+
+        .hero-content h1 {
+
+                height: 100%;
+                width: 100%;
+
+
+        }
+}
+
+@media screen and (max-width: 320px) {
+        .hero-section {
+                height: 55vh;
+        }
+
+        .hero-content h1 {
+                font-size: 2.25em;
+                height: 50vh;
+                /* Adjust font size for smaller devices */
+        }
+
+        .firstH1 {
+                margin-top: -4em;
+
+        }
+
+        .ohterH1 {
+                margin-left: -0.5em;
+                margin-top: 1.5em;
+
+        }
+
+        .hero-content h1 {
+
+                height: 100%;
+                width: 100%;
+
+
+        }
+}
