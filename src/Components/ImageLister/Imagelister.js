@@ -60,7 +60,7 @@ const Imagelister = () => {
             ]}>
             {images.map((image, index) => (
               <a href={image.Url} key={index} data-download-url={image.hdUrl}>
-                <img alt={image.id} src={image.Url} />
+                <img alt={""} src={image.Url} />
               </a>
             ))}
           </LightGallery>
